@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="1055.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <StackPane fx:id="pane" layoutX="120.0" layoutY="41.0" prefHeight="330.0" prefWidth="800.0">
+         <children>
+            <GridPane prefHeight="249.0" prefWidth="813.0" style="-fx-background-color: ebebeb;" StackPane.alignment="CENTER">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="273.0" minHeight="10.0" prefHeight="263.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="110.0" minHeight="0.0" prefHeight="67.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <StackPane.margin>
+                  <Insets />
+               </StackPane.margin>
+               <children>
+                  <Label alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" text="SiChen Gan">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <GridPane.margin>
+                        <Insets bottom="-100.0" left="20.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <ImageView fitHeight="200.0" fitWidth="140.0">
+                     <image>
+                        <Image url="@../../../../../SharePoint/Facial%20Recognition%20-%20Documents/ZanQi%20Sun/TeamMember/G.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="140.0" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../../../../../SharePoint/Facial%20Recognition%20-%20Documents/ZanQi%20Sun/TeamMember/L.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="140.0" GridPane.columnIndex="4">
+                     <image>
+                        <Image url="@../../../../../SharePoint/Facial%20Recognition%20-%20Documents/ZanQi%20Sun/TeamMember/R.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="140.0" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../../../../../SharePoint/Facial%20Recognition%20-%20Documents/ZanQi%20Sun/TeamMember/T.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="200.0" fitWidth="140.0" GridPane.columnIndex="2">
+                     <image>
+                        <Image url="@../../../../../SharePoint/Facial%20Recognition%20-%20Documents/ZanQi%20Sun/TeamMember/S.png" />
+                     </image>
+                  </ImageView>
+                  <Label text="Programmer" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Programmer" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Designer" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Programmer" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Programmer" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>

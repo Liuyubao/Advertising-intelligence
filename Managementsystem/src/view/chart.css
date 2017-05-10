@@ -1,0 +1,54 @@
+.axis-label {
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 1.2em;
+}
+.chart-legend {
+   -fx-background-color:  transparent;
+   -fx-padding: -10px;
+}
+ 
+.chart-legend-item-symbol{
+   -fx-background-radius: 5;
+}
+ 
+.chart-legend-item{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 1.2em;
+}
+
+.chart-plot-background {
+    -fx-background-color: #ebebeb;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke:  #333333;
+    -fx-stroke-width: 0.3;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke:  #333333;
+    -fx-stroke-width: 0.3;
+}
+.chart-alternative-row-fill {
+    -fx-fill: transparent;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}
+.axis {
+    -fx-font-size: 1.2em;    
+    -fx-tick-label-fill: #ffffff;
+    -fx-tick-length: 10;
+    -fx-minor-tick-length: 5;
+}
+.axis-tick-mark {
+	-fx-stroke: #ffffff; 
+    -fx-stroke-width: 2; 
+}
+.axis-minor-tick-mark {
+	-fx-stroke: #ffffff;
+}
+.chart-series-line {    
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+.chart-bar { 
+	-fx-bar-fill: #0096C9;
+} 
